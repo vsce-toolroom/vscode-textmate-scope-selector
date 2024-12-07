@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "esModuleInterop": true,
+        "lib": ["ES2021", "DOM"],
+        "module": "commonjs",
+        "outDir": "out",
+        "strict": true,
+        "target": "es2021"
+    },
+    "exclude": [
+        "node_modules",
+        "out",
+        "release"
+    ]
+}

@@ -1,0 +1,16 @@
+[package]
+name = "vscode-textmate-scope-selector"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["vsce-toolroom <git.vsce-toolroom@outlook.com>"]
+readme = "./README.md"
+description = "WASM binding for Textmate scope selector PEG (parser grammar)"
+repository = "https://github.com/vsce-toolroom/vscode-textmate-scope-selector"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+textmate-scope-selector-peg = "2.0.0"
+wasm-bindgen = "0.2.97"
