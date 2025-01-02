@@ -1,0 +1,12 @@
+node_modules
+scripts
+out
+scripts
+src
+test
+target
+.prettierrc.json
+Cargo.lock
+Cargo.toml
+tsconfig.json
+webpack.config.js
